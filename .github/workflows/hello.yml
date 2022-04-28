@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: Nuevo Script
         run: echo first action 
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
